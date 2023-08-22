@@ -61,7 +61,7 @@ runs:
         echo -e "$report"
 
     - name: Comment Report
-      uses: actions/github-script@v5
+      uses: actions/github-script@v6
       with:
         github-token: ${{ inputs.github_token }}
         script: |
