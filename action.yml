@@ -22,8 +22,8 @@ runs:
       id: go-diff
       uses: noh4nsen/go-diff@1.4.0
       with:
-      head_branch: ${{ inputs.head_branch }}
-      base_branch: ${{ inputs.base_branch }}
+        head_branch: ${{ inputs.head_branch }}
+        base_branch: ${{ inputs.base_branch }}
 
     - name: Checkout code
       uses: actions/checkout@v3
